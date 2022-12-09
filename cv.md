@@ -23,3 +23,7 @@ multiply = function (a, b) {
 ### Education
 IT Fundamentals (EPAM UpSkill Me)
 ****
+### Languages
+**English - B1** (language practice only with my teacher)  
+**Italian - A2** (language practice with native speakers)
+***
