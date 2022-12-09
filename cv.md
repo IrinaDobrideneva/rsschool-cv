@@ -15,11 +15,11 @@ Photoshop
 ****
 ### Code Example  
 ```
-
-
 multiply = function (a, b) {  
   return a * b;  
 }  
-
-
 ```
+****
+### Education
+IT Fundamentals (EPAM UpSkill Me)
+****
