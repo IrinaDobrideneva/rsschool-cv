@@ -7,7 +7,7 @@
 **Discord RS-School:** IraDobr (@IrinaDobrideneva)  
 ****
 ### About Myself  
-A few years ago I had experience in software development. For 2 years I worked as QA Engineer. It so happened that I ended up in the marketing department and now I'm a marketer. But I understand that I’m not interested enough in this area and I want to return to IT. I already have some knowledge in HTML coding, so I decided to try to develop in this direction.  
+A few years ago I had experience in software development. I worked as QA Engineer For 2 years. It so happened that I ended up in the marketing department and now I'm a marketer. But I understand that I’m not interested enough in this area and I want to return to IT. I already have some knowledge in HTML coding, so I decided to try to develop in this direction.  
 ****
 ### Skills  
 Knowledge of the basics of programming (without practice)  
