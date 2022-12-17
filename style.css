@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
     min-height: 100vh;
     padding: 0;
@@ -43,7 +47,6 @@ h1 {
   }
 
 .navigation {
-    width: 30%;
     margin-top: 50px;
     /*border: 1px solid red;*/
 }
@@ -103,5 +106,5 @@ section {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(26, 72, 141);
+    color: #016a88;
 }
