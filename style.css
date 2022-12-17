@@ -30,11 +30,20 @@ html {
     font-weight: bold;
 }
 
-.main-conteiner {
+.main-section {
     display: flex;
     flex-wrap: wrap;
 }
 
 section {
     width: 50%;
+}
+
+.my-code {
+    margin-left: 20px;
+    width: 80%;
+    height: 130px;
+    padding: 20px, 30px, 20px, 30px;
+    background-color: rgb(240, 229, 250);
+    border-radius: 9px;
 }
