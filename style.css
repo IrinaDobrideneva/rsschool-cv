@@ -1,11 +1,14 @@
+html {
+    line-height: 26px;
+}
+
 .photo {
+    display: flex;
+    justify-content: center;
     width: 200px;
     margin: 30px;
 }
 
-div {
-    width: 50%;
-}
 
 .header-section {
   display: flex;
@@ -18,7 +21,20 @@ div {
       width: 100%;
     }
   }
-
+/*------------------------------------*/
 .navigation {
     line-height: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 50%;
 }
