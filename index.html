@@ -13,35 +13,37 @@
 <body>
 <div class="main-conteiner">
 <header class="header-section">
-    <section>
+    <div class="header-section-left">
         <div class="conteiner">
-            <img class="photo" src="assets/img/Photo.png" alt="My photo">
+            <img class="photo" src="assets/img/photo2.png" alt="My photo">
         </div>
-    </section>
-    
-    
-    <section>
-        <div class="conteiner">
+    </div>
+        
+    <div>
+        <div class="header-section-right">
             <nav class="nav-conteiner">
                 <div class="navigation">
-                    <ul>
-                        <li>Contact information</li>
-                        <li>About myself</li>
-                        <li>Skills</li>
-                        <li>Education</li>
-                        <li>Languages</li>
-                        <li>Projects</li>
-                        <li>Code example</li>
+                    <ul class="menu">
+                        <li><a href="#contacts">Contact information</a></li>
+                        <li><a href="#about">About myself</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+
+                    <ul class="menu">
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#code">Code example</a> </li>
                     </ul>
                 </div>
             </nav>
-        <h1 class="name">Irina Dobrideneva</h1>
+            <h1 class="name">Irina Dobrideneva</h1>
         </div>
-    </section>
+    </div>
 </header>
 
 <main class="main-section">
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="conteiner">
             <h2>Contact information</h2>
             <ul>
@@ -54,7 +56,7 @@
     </section>
     
     
-    <section class="about-myself">
+    <section class="about-myself" id="about">
         <div class="conteiner">
             <h2>About myself</h2>
             <p>A few years ago I had experience in software development. I worked as QA Engineer For 2 years. It so happened that I ended up in the marketing department and now I'm a marketer. But I understand that I’m not interested enough in this area and I want to return to IT. I already have some knowledge in HTML coding, so I decided to try to develop in this direction.</p>
@@ -62,18 +64,20 @@
     </section>
    
    
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="conteiner">
             <h2>Skills</h2>
             <ul>
                 <li>Knowledge of the basics of programming (without practice)</li>
                 <li>Photoshop</li>
+                <li>GitHub</li>
+                <li>Html, CSS</li>
             </ul>
         </div>
     </section>
 
     
-    <section class="education">
+    <section class="education" id="education">
         <div class="conteiner">
             <h2>Education</h2>
             <p>IT Fundamentals (EPAM UpSkill Me)</p>
@@ -81,7 +85,7 @@
     </section>
 
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="conteiner">
             <h2>Projects</h2>
             <ul>
@@ -91,7 +95,7 @@
     </section>
 
 
-    <section class="languages">
+    <section class="languages" id="languages">
         <div class="conteiner">
             <h2>Languages</h2>
             <ul>
@@ -101,32 +105,35 @@
         </div>
     </section>
 
-    <section class="code-example">
+    <section class="code-example" id="code">
         <div class="conteiner">
             <h2>Code example</h2>
             <div class="my-code">
+                <pre>
                 <code>
-                <pre class="pre">
     multiply = function (a, b) {  
     return a * b;  
 } 
-                </pre>
                 </code>
+                </pre>
             </div>
         </div>
     </section>
 </main>
 
 <footer class="footer">
-    <div class="conteiner">
-        <a href="https://github.com/IrinaDobrideneva">
-            <img src="assets/img/Github_icon_30px.png" alt="GitHub">
-            <p>Visit my GitHub</p>
+    <div class="footer-conteiner">
+        <div class="footer-conteiner1">
+            <a class="footer-block" href="https://github.com/IrinaDobrideneva">
+            <img class="footer-block" src="assets/img/Github_icon_30px.png" alt="GitHub"></a>
+
+            <a class="footer-block" href="https://github.com/IrinaDobrideneva">Visit my GitHub</a>
+        </div>
+        <p class="footer-block">2022</p>
+        <a class="footer-block" href="https://rs.school/js/">
+                <img class="rs-image" src="assets/img/rs_school_js.svg" alt="rs.school">
         </a>
-        <p>2022</p>
-        <a href="https://rs.school/js-stage0/">
-            <img class="rs-image" src="assets/img/rsschool.png" alt="rs.school">
-        </a>
+        
     </div>
 </footer>
 </div>
