@@ -36,7 +36,8 @@ a.footer-block {
 
 .menu a{
     text-decoration: none;
-    color: #ffffff;
+    color: #dee2e7;
+    font-variant: small-caps;
 }
 
 .bold {
@@ -109,9 +110,9 @@ a.footer-block {
 .my-code {
     margin-left: 20px;
     margin-bottom: 20px;
-    width: 80%;
-    height: 130px;
-    padding: 25px;
+    width: 85%;
+    height: 150px;
+    padding: 0 0 0 25px;
     background-color: #f5f9fb;
     border-radius: 9px;
     border: 1px solid rgb(232, 232, 232);
